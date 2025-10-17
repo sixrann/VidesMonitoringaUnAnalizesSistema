@@ -9,10 +9,48 @@
 @include('inc.header')
 
 <div class="container mt-5">
-    <h1>LABDIEN!</h1>
-    <p>Tas ir mana vietne, cerams jums patīk)</p>
-    <img src="https://pilsonis.wordpress.com/wp-content/uploads/2015/11/darbs_ir_labs-copy.jpg?w=1100" class="img-fluid" alt="Sample Image">
+<div class="row">
+    <div class="col-12 text-center mb-4">
+        <h1 class="display-6">Vides monitoringa un analīzes sistēma</h1>
+        <p class="lead">Reāllaika datu vākšana, vizualizācija un analīze gaisa, ūdens un trokšņa kvalitātes uzraudzībai.</p>
+    </div>
 </div>
+
+<div class="row mb-4">
+    <div class="col-md-7">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Par sistēmu</h5>
+                <p class="card-text">
+                    Sistēma apkopo datus no izkliedētiem sensoriem un analizē tos.
+                </p>
+                <ul>
+                    <li>Gaisa kvalitātes (PM2.5, PM10, CO₂) uzraudzība</li>
+                    <li>Ūdens parametrs (pH, oksigens, piesārņojums)</li>
+                    <li>Trokšņa līmeņa monitorings</li>
+                    <li>Brīdinājumi un automātiskas atskaites</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="card text-bg-light">
+                <div class="card-body">
+                    <h6 class="card-title mb-3">Pašreizējie rādītāji</h6>
+                    <div class="d-flex justify-content-between">
+                        <span>Gaisa kvalitāte (AQI)</span>
+                        <span class="badge bg-success">42</span>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span>Ūdens pH</span>
+                        <span class="badge bg-warning">7.4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
 @include('inc.footer')
 </body>
