@@ -1,21 +1,12 @@
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        footer {
-            margin-top: auto;
-            background-color: #f8f9fa;
-            padding: 1.5rem 0;
-            border-top: 1px solid #dee2e6;
-            font-size: 0.9rem;
-        }
-    </style>
-</head>
+<style>
+    body{display:flex;flex-direction:column;min-height:100vh}
+    footer{margin-top:auto;background:#4361ee;color:#fff;padding:1rem;font-size:.9rem}
+    footer p{margin:0;opacity:.9}
+    footer p:first-child{font-weight:500;margin-bottom:.3rem}
+    footer a{color:#fff;text-decoration:none;transition:.2s}
+    footer a:hover{color:#fff;opacity:.8}
+</style>
 <footer class="text-center">
-    <p>&copy; 2025 My Website - V.M.U.A.S.</p>
-    <p>Footeris</p>
+    <p>&copy; 2025 Vides monitoringa un analīzes sistēma</p>
+    <p><a href="/">Sākums</a> · <a href="/kontakti">Kontakti</a> · <a href="#">Augšup ↑</a></p>
 </footer>
